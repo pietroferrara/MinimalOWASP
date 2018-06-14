@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <key id="file" for="node" attr.name="File" attr.type="string"/>
+  <key id="level" for="node" attr.name="Level" attr.type="string"/>
+  <key id="label" for="node" attr.name="Label" attr.type="string"/>
+  <key id="type" for="node" attr.name="Type" attr.type="string"/>
+  <key id="source_sink" for="node" attr.name="Source-Sink" attr.type="string"/>
+  <key id="intercomponent" for="edge" attr.name="Intercomponent" attr.type="boolean"/>
+  <graph edgedefault="directed">
+    <node id="h1">
+      <data key="label">org.owasp.benchmark.testcode</data>
+      <data key="level">Package</data>
+      <graph id="h1:" edgedefault="directed">
+        <node id="h2">
+          <data key="label">BenchmarkTest00008</data>
+          <data key="level">Class</data>
+          <graph id="h2:" edgedefault="directed">
+            <node id="h3">
+              <data key="label">org.owasp.benchmark.testcode.BenchmarkTest00008.doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse):void</data>
+              <data key="level">Method</data>
+              <graph id="h3:" edgedefault="directed">
+                <node id="h4">
+                  <data key="label">47</data>
+                  <data key="level">Line</data>
+                  <graph id="h4:" edgedefault="directed">
+                    <node id="27">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Call javax.servlet.http.HttpServletRequest.getHeader</data>
+                      <data key="type">CALL</data>
+                      <data key="source_sink">SOURCE</data>
+                    </node>
+                    <node id="25">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Writing variable param</data>
+                      <data key="type">STORE</data>
+                    </node>
+                  </graph>
+                </node>
+                <node id="h5">
+                  <data key="label">51</data>
+                  <data key="level">Line</data>
+                  <graph id="h5:" edgedefault="directed">
+                    <node id="20">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Check if java.net.URLDecoder is initialized</data>
+                      <data key="type">IF_IS_INITIALISED</data>
+                    </node>
+                    <node id="24">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Reading variable param</data>
+                      <data key="type">LOAD</data>
+                    </node>
+                    <node id="18">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Writing variable param</data>
+                      <data key="type">STORE</data>
+                    </node>
+                    <node id="22">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Constant UTF-8</data>
+                      <data key="type">CONST</data>
+                    </node>
+                    <node id="19">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Call java.net.URLDecoder.decode</data>
+                      <data key="type">CALL</data>
+                    </node>
+                  </graph>
+                </node>
+                <node id="h6">
+                  <data key="label">54</data>
+                  <data key="level">Line</data>
+                  <graph id="h6:" edgedefault="directed">
+                    <node id="10">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Call java.lang.StringBuilder.append</data>
+                      <data key="type">CALL</data>
+                    </node>
+                    <node id="11">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Constant }</data>
+                      <data key="type">CONST</data>
+                    </node>
+                    <node id="16">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="type">OTHER</data>
+                    </node>
+                    <node id="12">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Call java.lang.StringBuilder.append</data>
+                      <data key="type">CALL</data>
+                    </node>
+                    <node id="13">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Reading variable param</data>
+                      <data key="type">LOAD</data>
+                    </node>
+                    <node id="14">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Call java.lang.StringBuilder.&lt;init&gt;</data>
+                      <data key="type">CALL</data>
+                    </node>
+                    <node id="17">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="type">OTHER</data>
+                    </node>
+                    <node id="8">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Writing variable sql</data>
+                      <data key="type">STORE</data>
+                    </node>
+                    <node id="9">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Call java.lang.StringBuilder.toString</data>
+                      <data key="type">CALL</data>
+                    </node>
+                    <node id="15">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Constant {call </data>
+                      <data key="type">CONST</data>
+                    </node>
+                  </graph>
+                </node>
+                <node id="h7">
+                  <data key="label">57</data>
+                  <data key="level">Line</data>
+                  <graph id="h7:" edgedefault="directed">
+                    <node id="3">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Writing variable connection</data>
+                      <data key="type">STORE</data>
+                    </node>
+                    <node id="6">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Check if org.owasp.benchmark.helpers.DatabaseHelper is initialized</data>
+                      <data key="type">IF_IS_INITIALISED</data>
+                    </node>
+                    <node id="4">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Call org.owasp.benchmark.helpers.DatabaseHelper.getSqlConnection</data>
+                      <data key="type">CALL</data>
+                    </node>
+                  </graph>
+                </node>
+                <node id="h8">
+                  <data key="label">58</data>
+                  <data key="level">Line</data>
+                  <graph id="h8:" edgedefault="directed">
+                    <node id="0">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Call java.sql.Connection.prepareCall</data>
+                      <data key="type">CALL</data>
+                      <data key="source_sink">SINK</data>
+                    </node>
+                    <node id="1">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Reading variable sql</data>
+                      <data key="type">LOAD</data>
+                    </node>
+                    <node id="2">
+                      <data key="file">org/owasp/benchmark/testcode/BenchmarkTest00008.java</data>
+                      <data key="label">Reading variable connection</data>
+                      <data key="type">LOAD</data>
+                    </node>
+                  </graph>
+                </node>
+              </graph>
+            </node>
+          </graph>
+        </node>
+      </graph>
+    </node>
+    <edge id="43" source="2" target="3">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="50" source="8" target="9">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="59" source="17" target="18">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="51" source="9" target="10">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="58" source="16" target="17">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="44" source="3" target="4">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="63" source="20" target="22">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="46" source="4" target="6">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="48" source="6" target="8">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="69" source="25" target="27">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="41" source="0" target="1">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="53" source="11" target="12">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="67" source="24" target="25">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="56" source="14" target="15">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="55" source="13" target="14">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="60" source="18" target="19">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="42" source="1" target="2">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="54" source="12" target="13">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="57" source="15" target="16">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="61" source="19" target="20">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="66" source="22" target="24">
+      <data key="intercomponent">false</data>
+    </edge>
+    <edge id="52" source="10" target="11">
+      <data key="intercomponent">false</data>
+    </edge>
+  </graph>
+</graphml>
